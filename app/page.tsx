@@ -16,23 +16,9 @@ export default function Page() {
         </p>
       </header>
       <Scanner />
-      <footer className="mt-auto flex flex-col gap-2 pt-10 text-[11px] text-muted">
-        <div>
-          Bewertungen sind Momentaufnahmen unabhängiger Organisationen — Quelle
-          wird bei jedem Ergebnis genannt.
-        </div>
-        <div>
-          Aktuell aus der Datenbank von{" "}
-          <a
-            href="https://essenmitherz.ch/label-und-marken/"
-            target="_blank"
-            rel="noreferrer"
-            className="text-ink underline decoration-line underline-offset-2"
-          >
-            Essen mit Herz
-          </a>{" "}
-          (Schweizer Tierschutz STS).
-        </div>
+      <footer className="mt-auto pt-10 text-[11px] text-muted">
+        Bewertungen sind Momentaufnahmen unabhängiger Organisationen — Quelle
+        wird bei jedem Ergebnis genannt.
       </footer>
     </main>
   );
