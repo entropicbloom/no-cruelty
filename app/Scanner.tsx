@@ -361,9 +361,11 @@ function ResultPanel({
           )}
           {result.notes && <div className="text-[12px] text-muted">{result.notes}</div>}
         </div>
+        {/* KI-Tiefenrecherche temporär deaktiviert.
+            Re-enable by uncommenting:
         {result.productType && labelGuess && (
           <ResearchPanel productType={result.productType} label={labelGuess} onResult={onUpdate} />
-        )}
+        )} */}
       </div>
     );
   }
