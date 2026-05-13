@@ -1,7 +1,7 @@
 import Anthropic from "@anthropic-ai/sdk";
 import type { Citation } from "./types";
 
-const MODEL = process.env.RESEARCH_MODEL ?? "claude-haiku-4-5-20251001";
+const MODEL = process.env.RESEARCH_MODEL ?? "claude-sonnet-4-6";
 const MAX_TURNS = Number(process.env.RESEARCH_MAX_TURNS ?? 6);
 const MAX_WEB_SEARCHES = Number(process.env.RESEARCH_MAX_SEARCHES ?? 8);
 

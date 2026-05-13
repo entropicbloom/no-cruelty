@@ -1,7 +1,7 @@
 import Anthropic from "@anthropic-ai/sdk";
 import { allLabelsByProductType, allProductTypes } from "./sources";
 
-const MODEL = process.env.VISION_MODEL ?? "claude-haiku-4-5-20251001";
+const MODEL = process.env.VISION_MODEL ?? "claude-sonnet-4-6";
 
 const client = new Anthropic({
   apiKey: process.env.ANTHROPIC_API_KEY,
