@@ -356,7 +356,7 @@ function ResultPanel({
           <div className="text-[15px] text-ink">
             {result.productTypeDe
               ? `Erkannt als ${result.productTypeDe}, aber keine Label-Bewertung gefunden.`
-              : "Kein tierisches Produkt erkannt — oder die Quellen decken es nicht ab."}
+              : "Kein tierisches Produkt erkannt, oder die Quellen decken es nicht ab."}
           </div>
           {result.detectedLabels.length > 0 && (
             <div className="text-[12px] text-muted">

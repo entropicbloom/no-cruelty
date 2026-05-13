@@ -2,7 +2,7 @@ import type { Metadata, Viewport } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "No Cruelty — Tierwohl-Check",
+  title: "No Cruelty · Tierwohl-Check",
   description: "Foto vom Produkt → sofort sehen, wie das Tier behandelt wurde.",
 };
 
