@@ -236,6 +236,10 @@ function CameraPanel({
           </button>
         )}
       </div>
+      <p className="text-[11px] leading-relaxed text-muted">
+        Hinweis: Die Foto-Erkennung kann sich irren — bei Zweifel auf «Manuell»
+        wechseln.
+      </p>
     </div>
   );
 }
