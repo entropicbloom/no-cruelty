@@ -2,7 +2,7 @@
 
 Mobile web app for checking the animal-welfare rating of a food product. Take a photo or pick the product manually, get the welfare tier of the visible label.
 
-Live: https://no-cruelty.pages.dev
+Live: https://tierwohl.flaessig.com
 
 ## Data
 
