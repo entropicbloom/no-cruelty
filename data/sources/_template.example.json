@@ -1,0 +1,31 @@
+{
+  "_comment": "Drop a JSON file into data/sources/ and it will be picked up automatically. Use this template as a starting point. Each source defines its own tier system; the app normalizes them at lookup time. Tier ranks: 1 = best, 4 = worst.",
+  "id": "example-fish-welfare",
+  "name": "Example Fish Welfare Source",
+  "publisher": "Example NGO",
+  "url": "https://example.org/fish-welfare",
+  "language": "en",
+  "region": "EU",
+  "scoreSystem": {
+    "type": "tiered",
+    "tiers": [
+      { "key": "EXCELLENT", "rank": 1, "label": "Excellent", "color": "green", "description": "High welfare standards" },
+      { "key": "GOOD",      "rank": 2, "label": "Good",      "color": "yellow", "description": "Above-baseline welfare" },
+      { "key": "POOR",      "rank": 3, "label": "Poor",      "color": "orange", "description": "Below recommended welfare" },
+      { "key": "AVOID",     "rank": 4, "label": "Avoid",     "color": "red",    "description": "Severe welfare concerns" }
+    ],
+    "secondaryMetric": null
+  },
+  "productTypes": {
+    "salmon":  { "de": "Lachs",   "en": "Salmon"  },
+    "tuna":    { "de": "Thunfisch","en": "Tuna"    },
+    "trout":   { "de": "Forelle", "en": "Trout"   },
+    "shrimp":  { "de": "Garnele", "en": "Shrimp"  }
+  },
+  "entries": [
+    { "productType": "salmon", "label": "ASC Aquaculture", "tier": "GOOD", "metrics": {} },
+    { "productType": "salmon", "label": "Bio Suisse",      "tier": "EXCELLENT", "metrics": {} },
+    { "productType": "tuna",   "label": "MSC Pole & Line", "tier": "GOOD", "metrics": {} },
+    { "productType": "tuna",   "label": "Conventional",    "tier": "AVOID", "metrics": {} }
+  ]
+}
