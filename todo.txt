@@ -1,0 +1,1 @@
+- replace anthropic with openrouter, cheaper but accurate vision model
